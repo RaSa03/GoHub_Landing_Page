@@ -1,0 +1,265 @@
+.whatwedo__container {
+    margin-top: 150px;
+}
+.whatwedo__bloks {
+    position: relative;
+    // border: 1px solid #000;
+    height: 100%;
+}
+.whatwedo__blok {
+    display: flex;
+    margin-bottom: 50px;
+}
+.safety {
+    // border: 1px solid #000;
+    background: url(../img/whatwedo/1.jpg) 100% 0 no-repeat;
+}
+.whatwedo__blok-content {
+    max-width: 480px;
+    // border: 1px solid #000;
+    padding: 30px 0 70px;
+
+}
+.safety__content {
+}
+.whatwedo__blok-title {
+}
+.safety__title {
+}
+.safety__title-title {
+
+}
+.title {
+}
+.safety__title-text {
+}
+.text {
+}
+.safety__options {
+}
+.options {
+    display: flex;
+    margin: 30px 0 50px;
+    // align-items: center;
+}
+.options-option {
+    width: 50%;
+}
+.option__title {
+    font-size: 30px;
+    line-height: 206%;
+    font-weight: 300;
+    // color: #000000;
+}
+.option__text {
+    font-size: 16px;
+    line-height: 156%;
+    font-weight: 300;
+    // color: #525f7f;
+}
+.whatwedo__blok-buttons {
+    margin: 20px 0;
+}
+.safety__buttons {
+}
+.safety__button {
+}
+.button {
+}
+.safety__button2 {
+}
+.button2 {
+}
+.move {
+    justify-content: right;
+    background: url(../img/whatwedo/2.jpg) 0 0 no-repeat;
+}
+.move__content {
+}
+.move__title {
+}
+.move__title-title {
+}
+.move__title-text {
+}
+.move__options {
+}
+.move__buttons {
+}
+
+@media(max-width:1170px){
+    .safety{
+        background: url(../img/whatwedo/1.jpg) 100% 50%/60% no-repeat;
+    }
+    .move {
+        background: url(../img/whatwedo/2.jpg) -20% 50%/60% no-repeat;
+    }
+    .move__content{
+        // text-align: right;
+    }
+}
+@media(max-width:992px){
+    .whatwedo__blok-content{
+        // text-align: center;
+        background-color: rgba($color: #ffffff, $alpha: 0.75);
+        min-width: 100%;
+    }
+    .safety__content{
+        padding-right: 35%;
+    }
+    .move__content {
+        padding-left: 35%;
+    }
+    .safety{
+        background: url(../img/whatwedo/1.jpg) 100% 0/75% no-repeat;
+    }
+    .move {
+        background: url(../img/whatwedo/2.jpg) 0 0/75% no-repeat;
+    }
+}
+@media(max-width:767px){
+    .whatwedo__blok-content{
+        text-align: center;
+    }
+    .safety__content{
+        padding-right: 0;
+    }
+    .move__content {
+        padding-left: 0;
+    }
+    .safety{
+        background: url(../img/whatwedo/1.jpg) 0 0/100% no-repeat;
+    }
+    .move {
+        background: url(../img/whatwedo/2.jpg) 0 0/100% no-repeat;
+    }
+    .whatwedo__blok-content{
+        background-color: rgba($color: #ffffff, $alpha: 0.85);
+    }
+}
+@media(max-width:500px){
+    .whatwedo__blok-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .safety{
+    }
+    .move {
+        margin-top: -80px;
+        background-position: 0 20%;
+    }
+}
+@media(max-width:375px){
+    .safety{
+        background-position: 0 25%;
+    }
+    .move {
+        background-position: 0 30%;
+    }
+}
+
+
+
+//--------FINANCE--------------------------------------------
+
+
+.whatwedo__finances-opacity{
+    background: url(../img/whatwedo/layers.jpg) 100% 0 no-repeat;
+}
+.whatwedo__finances{
+    padding-bottom: 100px;
+}
+.finance__title {
+    max-width: 56%;
+    padding-top: 50px;
+}
+.finance__title-title {
+    line-height: 200%;
+}
+.title {
+}
+.finance__title-text {
+}
+.text {
+}
+.finance__services {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.finance__service {
+    // border: 1px solid #000;
+    margin-bottom: 80px;
+}
+.finance__service-bootom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.finance__service-title {
+    font-size: 30px;
+    line-height: 206%;
+    font-weight: 400;
+}
+.finance__service-list {
+}
+.service__name {
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 310%;
+    font-weight: 300;
+    color: #32325d;
+    background: url(../img/whatwedo/shape.png) 0 20px no-repeat;
+}
+@media(max-width:992px){
+    .finance__title {
+        max-width: 100%;
+        padding-top: 40px;
+    }
+    .whatwedo__finances{
+        background: rgba($color: #ffffff, $alpha: 0.6);
+    }
+    .whatwedo__finances-opacity{
+        background-size: 180%;
+        background-position: 35% -50px;
+    }
+    .finance__service-bootom{
+        flex-direction: column;
+    }
+    .finance__services{
+        margin-top: 70px;
+    }
+    .finance__service{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:767px){
+    .whatwedo__finances{
+        background: rgba($color: #ffffff, $alpha: 0.8);
+    }
+    .whatwedo__finances-opacity{
+        background-size: 250%;
+        background-position: 55% -50px;
+    }
+    .finance__title-title{
+        line-height: 120%;
+    }
+}
+@media(max-width:425px){
+    .service__name{
+        line-height: 200%;
+        background: url(../img/whatwedo/shape.png) 0 10px no-repeat;
+    }
+    .whatwedo__finances-opacity{
+        background-size: 250%;
+        background-position: 55% 150px;
+    }
+    .finance__services{
+        margin-top: 40px;
+    }
+    .finance__service-title{
+        line-height: 160%;
+        font-size: 28px;
+    }
+}
