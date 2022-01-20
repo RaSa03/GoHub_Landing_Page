@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 body {
-  background: url(../img/header/layers.jpg) 0 0/cover no-repeat;
+  background: url(../img/header/layers.webp) 0 0/cover no-repeat;
   height: 100%;
   color: #32325d;
   font-weight: 300;
@@ -207,7 +207,7 @@ body {
     min-height: 80px;
   }
   body {
-    background: url(../img/header/layers.jpg) 92% 5%/280% no-repeat;
+    background: url(../img/header/layers.webp) 92% 5%/280% no-repeat;
   }
   .header, .about__container {
     background-color: rgba(255, 255, 255, 0.8);
@@ -276,7 +276,7 @@ body {
     margin-top: 25px;
   }
   body {
-    background: url(../img/header/layers.jpg) 94% 0/300% no-repeat;
+    background: url(../img/header/layers.webp) 94% 0/300% no-repeat;
   }
 }
 
